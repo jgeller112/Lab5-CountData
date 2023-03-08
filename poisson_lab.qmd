@@ -1,12 +1,25 @@
 ---
 title: "Lab 5: Poisson Lab"
+subtitle: "Lab 5"
 editor: visual
 execute: 
   message: false
   warning: false
 ---
 
-# LAB 5
+## Introduction
+
+This lab aims to provide students with hands-on experience in running Poisson or negative binomial models, as well as reporting, interpreting, and visualizing results.
+
+## Instructions:
+
+- If you are fitting a model, display the model output in a neatly formatted table. (The \`tidy\` and \`kable\` functions can help!).
+
+- If you are creating a plot, use clear labels for all axes, titles, etc.
+
+- Commit and push your work to GitHub regularly, at least after each exercise. Write short and informative commit messages.
+
+- When you're done, we should be able to knit the final version of the QMD in your GitHub as a HTML.
 
 1.  To complete this lab:
 
@@ -43,10 +56,10 @@ data <- read_delim("https://raw.githubusercontent.com/jgeller112/psy504-advanced
 
     -   Model fit
 
-    -   LRT $\chi^2$ values for each effect (do relevant comparisons, if applicable)
+    -   LRT $\chi^2$ values for each effect (if categorical, include relevant comparisons, if applicable)
 
-    -   A figure focusing on only one of the predictors in each model (i.e., the one that is most interesting to you)
+    -   A figure focusing on one of the predictors (i.e., the one that is most interesting to you)
 
-    -   You may select any predictor from the model that interests you
+        -   You may select any predictor from the model that interests you
 
 6.  Upload your analysis script and html (Results + Figures) to Github

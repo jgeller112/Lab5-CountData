@@ -9,8 +9,7 @@ A. Hypotheses:
 Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables:
 
 1.  \
-    a.  The number of hours per week that a person spends on the Internet ("WWWHR") will\
-        be predicted by their vocabulary ("WORDSUM"), age ("AGE"), sex ("SEX"), religiosity\
+    a.  The number of hours per week that a person spends on the Internet ("WWWHR") will be predicted by their vocabulary ("WORDSUM"), age ("AGE"), sex ("SEX"), religiosity\
         ("RELITEN"), political orientation ("POLVIEWS"), and how often they work from home\
         ("WRKHOME").
 
@@ -27,10 +26,11 @@ B. Methods:
 
 2.  Dependent variables
 
+    a\. Number of hours per week that a person spends on the Internet (\\"WWWHR\\")
+
+```{=html}
 <!-- -->
-
-    a. Number of hours per week that a person spends on the Internet (\"WWWHR\")
-
+```
 3.  Indicate where, from whom and how the data will be collected.
 
     a\. This dataset contains responses from a nationally representative sample of adults in the United States to the "General Social Survey" or "GSS" by the\
@@ -57,3 +57,7 @@ D. Recommended elements:
 1.  The method of missing data handling (e.g., pairwise or listwise deletion, imputation interpolation)
 
     a\. **if missing impute the data**. Look at the code book in the repository for missingness and change accordingly
+
+    2.  Assumption checks
+
+        a\. Make sure to check for overdispersion and also look for outliers
